@@ -1,0 +1,53 @@
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#textColor{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 5%;
+    padding: 0%;
+    box-sizing: border-box;
+   display: flex;
+   font-size: large; 
+
+}
+.backgroundText {
+    background-color: aquamarine;
+}
+.ecran{
+    width: auto;
+    height: 100vh;
+background-image:url("https://blog.prodware.fr/wp-content/uploads/2016/04/2fa0ebcb40151401dcbee7e8a2c94d83_large.jpeg") ;
+background-size:cover;
+background-repeat: no-repeat;
+}
+#about.text{
+    color: antiquewhite;
+    margin-top: 5%;
+    font-weight: 500;
+    font-size: 24px;
+}
+#work.text{
+    color: beige;
+    margin-top: 5%;
+    font-size: large;
+    font-weight: 100;
+}
+#resume.text{
+    color: brown;
+    margin-top: 5%;
+    font-size: large;
+    font-weight: 100;
+}
+#contact.img{
+    color: rgb(42, 165, 95);
+    margin-top: 5%;
+    font-size: large;
+    font-weight: 100;
+    transition: duration 0.5s; 
+}
+#contact img:hover{
+    color: rgb(165, 128, 42);
+   
+}
